@@ -9,8 +9,12 @@ Although the data on morphology categories (MORPHOLOGY_EJECTA_1 through 3) are i
 ### Question 1:
 Is there a correlation between the location of the craters (longitude and latitude) and the amount of craters? For the analysis the surface of Mars will be divided into 4 quadrants (north-east, south-east, south-west and north-west). In other words, which quadrant has the highest density of craters?   
 
+
+<a href="https://ibb.co/gyh6zJ1"><img src="https://i.ibb.co/xhd3J6v/Mars7.png" alt="Mars7" border="0" width="200"></a>
+
+
 ### Question 2:
-Is regard to the first question: Is there a correlation between the size, or more precisely, the diameter and the location of the craters? In other words, in which quadrant are the largest craters located on average?
+In regard to the first question: Is there a correlation between the size, or more precisely, the diameter and the location of the craters? In other words, in which quadrant are the largest craters located on average?
 
 ## Code Book
 
