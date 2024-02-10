@@ -1,6 +1,6 @@
 ## Dataset
 
-I have the option of using one of the five public datasets provided in the course (or my own). After careful consideration, I opted for the Mars craters dataset. This particular dataset refers to a 2011 study of craters on Mars authored by Stuart James Robbins of the University of Colorado, Boulder.
+I had the option of using one of the five public datasets provided in the course (or my own). After careful consideration, I opted for the Mars craters dataset. This particular dataset refers to a 2011 study of craters on Mars authored by Stuart James Robbins of the University of Colorado, Boulder.
 
 ## Research question
 
