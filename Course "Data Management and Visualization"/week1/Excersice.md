@@ -27,6 +27,7 @@ In regard to the first question: Is there a correlation between the size, or mor
 2. LATITUDE_CIRCLE_IMAGE: Latitude from the derived center of a non-linear least-squares circle fit to the vertices selected to manually identify the crater rim (units are decimal degrees North).
 3. LONGITUDE_CIRCLE_IMAGE: Longitude from the derived center of a non-linear least-squares circle fit to the vertices selected to manually identify the crater rim (units are decimal degrees East).
 4. DIAM_CIRCLE_IMAGE: Diameter from a non-linear least-squares circle fit to the vertices selected to manually identify the crater rim (units are km).
+   
 5. Q1_NE: Quadrant 1 is North-East: Value of LONGITUDE_CIRCLE_IMAGE > 0 and value of LATITUDE_CIRCLE_IMAGE > 0
 6. Q2_SE: Quadrant 2 is South-East: Value of LONGITUDE_CIRCLE_IMAGE > 0 and value of LATITUDE_CIRCLE_IMAGE < 0
 7. Q3_SW: Quadrant 3 is South-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE < 0
