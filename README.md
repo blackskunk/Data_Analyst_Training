@@ -4,8 +4,5 @@ This GitHub repository is used to publish the assignments and exercises for the 
 
 <a href="https://ibb.co/Tvmc1yF"><img src="https://i.ibb.co/NVZxrRH/Coursera.png" alt="Coursera" border="0" width="200"></a>
 
-<div style="margin: 0 auto; width: 200px;">
-    <a href="https://ibb.co/Tvmc1yF">
-        <img src="https://i.ibb.co/NVZxrRH/Coursera.png" alt="Coursera" border="0" width="200">
-    </a>
-</div>
+
+
