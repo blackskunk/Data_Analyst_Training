@@ -9,7 +9,7 @@ I had the option of using one of the five public datasets provided in the course
 ## Research question
 
 Although the data on morphology categories (MORPHOLOGY_EJECTA_1 through 3) are interesting, it's not accessible for the majority of the craters listed in the dataset. 
-Therefore I have decided to analyze the geographic distribution of craters in terms of crater density and crater size. 
+Therefore I have decided to analyze the geographic distribution of craters in terms of crater density and crater size (diameter). 
 
 #### Question 1:
 Is there a correlation between the location (longitude and latitude) and the number of craters? In other words, is there a quadrant in which significantly more craters can be found?
