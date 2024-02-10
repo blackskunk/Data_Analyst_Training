@@ -35,6 +35,6 @@ In regard to the first question: Is there a correlation between the size, or mor
 
 ## References
 
-[1] <a href="https://d3c33hcgiwev3.cloudfront.net/_b190b54e08fd8a7020b9f120015c2dab_marscrater_pds.csv?Expires=1707696000&Signature=RbFH9gp2GOZG1CUTMAnjX8mUf6agfE1gFF42EA2eE8qcKwb~lnbUZ6HaXJhG1tgTBbiGVkF6h-~Y148MgIkEetZnZR3Ir8lHfg~NGKxnCRJjxAOf-ZUBYIFS-ZTwNHK-ZUdPaYX0C2vX6jn4BmwYPm~6DfFhAqbti7WYy6NZReA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">Mars_Crater_Dataset</a>
-[2] <a href"https://about.sjrdesign.net/files/thesis/RobbinsThesis_LargeMB.pdf">Robbins, S. J. (2011), Planetary Surface Properties, Cratering Physics, and the Volcanic History of Mars from a New Global Martian Crater Database., Site: Stuart Robbins, Astro/Geophysicist on the Web, 1–239</a>
+[1] <a href="https://d3c33hcgiwev3.cloudfront.net/_b190b54e08fd8a7020b9f120015c2dab_marscrater_pds.csv?Expires=1707696000&Signature=RbFH9gp2GOZG1CUTMAnjX8mUf6agfE1gFF42EA2eE8qcKwb~lnbUZ6HaXJhG1tgTBbiGVkF6h-~Y148MgIkEetZnZR3Ir8lHfg~NGKxnCRJjxAOf-ZUBYIFS-ZTwNHK-ZUdPaYX0C2vX6jn4BmwYPm~6DfFhAqbti7WYy6NZReA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">Mars_Crater_Dataset</a></n>
+[2] <a href="https://about.sjrdesign.net/files/thesis/RobbinsThesis_LargeMB.pdf">Robbins, S. J. (2011), Planetary Surface Properties, Cratering Physics, and the Volcanic History of Mars from a New Global Martian Crater Database., Site: Stuart Robbins, Astro/Geophysicist on the Web, 1–239</a>
 
