@@ -1,6 +1,8 @@
 ## Dataset
 
-I had the option of using one of the five public datasets provided in the course (or my own). After careful consideration, I opted for the Mars craters dataset. This particular dataset refers to a 2011 study of craters on Mars authored by Stuart James Robbins of the University of Colorado, Boulder [1].
+I had the option of using one of the five public datasets provided in the course (or my own). After careful consideration, I opted for the Mars craters dataset. This particular Mars Crater dataset [1] refers to a 2011 study of craters on Mars authored by Stuart James Robbins of the University of Colorado, Boulder [2].
+
+
 
 ## Research question
 
@@ -30,4 +32,9 @@ In regard to the first question: Is there a correlation between the size, or mor
 7. Q3_SW: Quadrant 3 is South-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE < 0
 8. Q4_NW: Quadrant 4 is North-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE > 0
 
+
+## References
+
+* [1]: https://d3c33hcgiwev3.cloudfront.net/_b190b54e08fd8a7020b9f120015c2dab_marscrater_pds.csv?Expires=1707696000&Signature=RbFH9gp2GOZG1CUTMAnjX8mUf6agfE1gFF42EA2eE8qcKwb~lnbUZ6HaXJhG1tgTBbiGVkF6h-~Y148MgIkEetZnZR3Ir8lHfg~NGKxnCRJjxAOf-ZUBYIFS-ZTwNHK-ZUdPaYX0C2vX6jn4BmwYPm~6DfFhAqbti7WYy6NZReA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+* [2] <a href="https://d3c33hcgiwev3.cloudfront.net/_b190b54e08fd8a7020b9f120015c2dab_marscrater_pds.csv?Expires=1707696000&Signature=RbFH9gp2GOZG1CUTMAnjX8mUf6agfE1gFF42EA2eE8qcKwb~lnbUZ6HaXJhG1tgTBbiGVkF6h-~Y148MgIkEetZnZR3Ir8lHfg~NGKxnCRJjxAOf-ZUBYIFS-ZTwNHK-ZUdPaYX0C2vX6jn4BmwYPm~6DfFhAqbti7WYy6NZReA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">Mars_Crater_Dataset</a>
 
