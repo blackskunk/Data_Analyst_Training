@@ -22,7 +22,7 @@ For the analysis the surface of Mars will be divided into 4 quadrants:
 <a href="https://ibb.co/bH0PRGt"><img src="https://i.ibb.co/YDC3TVg/Mars7.png" alt="Mars7" border="0" width="800"></a>
 
 #### Question 2:
-In regard to the first question: Is there a correlation between the size, or more precisely, the diameter and the location of the craters? In other words, in which quadrant are the largest craters located on average?
+In regard to the first question: Is there a correlation between the most dense crater area (quadrant) and the biggest craters (diameter)?
 
 ## Code Book
 
@@ -50,4 +50,5 @@ Based on the original Mars Crater codebook [x] I wrote the following codebook:
 
 [x] <a href="https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/Mars%20Crater%20Codebook.pdf">CRATER_ID Codebook</a>
 
+[x] <a href="https://watermark.silverchair.com/spe550-29.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAxUwggMRBgkqhkiG9w0BBwagggMCMIIC_gIBADCCAvcGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM6EndwfiLBoyGU7bbAgEQgIICyKko3kL59exV54cgzGuJr9kS5dEQlxiFSukSiuVkghkpLXXf24FPufyTZw0PK7hY_cLKgrX-Z2LyvftDWL9purciovP9tfmCwgCc9VoCvKocmeL5dz6ykk-ElO1Vv0E66KhXjmMEKvgncg3t-j9V0wtjaMNQL-07EGSuwrSN5gWIRLS0ng26dzu6NV5-DulTQ7qbkAmWHxjft5F9qv8N-gyhUCu8vmIHcj767BjfGSaSWfr05_HoHxLEVvYJGY0nsm7CNu-CjxAi_ywTQ_SXjYXE0yyXaeIi5MauPge9A4lxW2PyMr9B97Yihta4lWOtY090PAXuSKPWmXBu__OafjL2B2ZsLgA2Mn0G6bgm2x0xuov2bQimrsKiRIP-rCpt9ItodLMfx39-oqD4MVd47UL_ngbUHwlWY528XlSny49Q_3JhId6QmV5mGffsQ1PoP7lptoa0bsHys3rePxcUQmi-1ust7w3xID6e2uOx_hiGNr2GVqBCZTRBMpBHztaaDTMYSEuHkwoDfXtWWeyTMPEvxUbzvVUkJ52_oOpiUDX_VsiyVB-a-dmBy12oOCEMvIkiR0-f3bpjjeXAB_Xl8KeA8UG6AEdIZ_HjVlWNbFqFt7zbNgEhGKSmLnd_cQaDpC_2GHC9ub16QvRii5vv4wqq48Ga6a0CN8xBIGiJVoNQi6Q-Kbm6B-dMg4Qvi1ueAFH-ICDpWb_BH7rzuxL5FoGNr6wH2cdTDy-08gluhcrhcpzyThKH24wVquVKnOFFhR8CxSx7_C59kKm9fEDAl_HdPY5YsyYHzBNpIoeyizaANh8cGUIwNhb07-BNukRtVHfq79_fSIFXW1NYCnzj6RO3el3XaJ-pMJHmcBywnt_k4TD-1VY4I1PFUQ-brqOdnNnwRJgOHH5x12jSjfDW0-n0Vh-kptcDfnuf3JX5NpCTxqOY8WgTnv8"> Mars Crater Database: A participative project for the classification of the morphological characteristics of large Martian craters</a>
 
