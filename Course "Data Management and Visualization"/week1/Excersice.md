@@ -40,11 +40,12 @@ Based on the original Mars Crater codebook [x] I wrote the following codebook:
 
 ## Existing Topic Research and Hypothesis
 
-A search in Google Scholar yielded a lot of research papers concerning the 
+A search in Google Scholar yielded (of course) in a lot of research papers concerning Mars craters.
+In the study of Peter J. and Mouginis-Mark the geometric of craters was discussed in detail [4]. A compareable study from A. Lagain the morphological characteristics of craters have been well classified [5].
+In both research as well in the stuy of Stuart J. Robbins and Brian M. Hynek [6] the regional variation of craters has been analyzed.  
 
-Additionally, there are earlier studies dating to the 1990s. The data sets for the above and earlier studies are not readily available for comparison. However, the Aharonson study does indicate that certain physical characteristics, such as diameter and rim slope have a correlation. As rim slope is somewhat related to crater depth, I can hypothesize that crater diameter and depth do have a direct correlation to each other. The degree to which they are related remains unknown at this point until I begin analysis.
-
-
+Concerning the studies I can hypothesize that there will be a quadrant where significantly more craters are located as well as an area with the biggest craters. 
+The degree to which they are related remains unknown at this point until I begin analysis.
 
 ## References
 
@@ -56,7 +57,6 @@ Additionally, there are earlier studies dating to the 1990s. The data sets for t
 
 [4] <a href="https://onlinelibrary.wiley.com/share/TYIG4WKQTSHHQ22EZRHP?target=10.1111/maps.12895">Determination of Mars crater geometric data: Insights from high-resolution digital elevation models Peter J. Mouginis-Mark, Joseph Boyce, Virgil L. Sharpton, Harold Garbeil</a>
 
-[5] <a href="https://agupubs.onlinelibrary.wiley.com/share/MCHMUXR6RTENP8AI7CUJ?target=10.1029/2011JE003967">A new global database of Mars impact craters ≥1 km: 2. Global crater properties and regional variations of the simple-to-complex transition diameter, Stuart J. Robbins, Brian M. Hynek</a>
+[5] <a href="https://pubs.geoscienceworld.org/gsa/books/book/2312/chapter/129414828/Mars-Crater-Database-A-participative-project-for"> Mars Crater Database: A participative project for the classification of the morphological characteristics of large Martian craters</a>
 
-[6] <a href="https://pubs.geoscienceworld.org/gsa/books/book/2312/chapter/129414828/Mars-Crater-Database-A-participative-project-for"> Mars Crater Database: A participative project for the classification of the morphological characteristics of large Martian craters</a>
-
+[6] <a href="https://agupubs.onlinelibrary.wiley.com/share/MCHMUXR6RTENP8AI7CUJ?target=10.1029/2011JE003967">A new global database of Mars impact craters ≥1 km: 2. Global crater properties and regional variations of the simple-to-complex transition diameter, Stuart J. Robbins, Brian M. Hynek</a>
