@@ -1,3 +1,5 @@
+#Start your research project
+
 ## Dataset
 
 I had the option of using one of the five public datasets provided in the course (or my own). After careful consideration, I opted for the Mars craters dataset. This particular Mars Crater dataset [1] refers to a 2011 study of craters on Mars authored by Stuart James Robbins of the University of Colorado, Boulder [2].
@@ -8,7 +10,7 @@ I had the option of using one of the five public datasets provided in the course
 
 Although the data on morphology categories (MORPHOLOGY_EJECTA_1 through 3) are interesting, it's not accessible for the majority of the craters listed in the dataset. Furthermore, the correlation between diameter and depth of craters have often be analysed. Therefore I have decided to analyze the geographic distribution of craters in terms of crater density and crater size. 
 
-### Question 1:
+#### Question 1:
 Is there a correlation between the location of the craters (longitude and latitude) and the amount of craters? In other words, which quadrant has the highest density of craters? 
 For the analysis the surface of Mars will be divided into 4 quadrants: 
 * Q1_NE: North-East
@@ -18,7 +20,7 @@ For the analysis the surface of Mars will be divided into 4 quadrants:
 
 <a href="https://ibb.co/bH0PRGt"><img src="https://i.ibb.co/YDC3TVg/Mars7.png" alt="Mars7" border="0" width="800"></a>
 
-### Question 2:
+#### Question 2:
 In regard to the first question: Is there a correlation between the size, or more precisely, the diameter and the location of the craters? In other words, in which quadrant are the largest craters located on average?
 
 ## Code Book
