@@ -1,3 +1,3 @@
 # Purpose
 
-### This GitHub repository is used to publish the tasks and exercises performed during my Data Analytic training at Cousera 
+This GitHub repository is used to publish the assignments and completed exercises for the various courses I take as part of my Data Analytic training on Cousera.org.
