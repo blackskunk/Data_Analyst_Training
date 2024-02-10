@@ -46,6 +46,6 @@ In regard to the first question: Is there a correlation between the size, or mor
 
 [4] <a href="https://agupubs.onlinelibrary.wiley.com/share/MCHMUXR6RTENP8AI7CUJ?target=10.1029/2011JE003967">A new global database of Mars impact craters ≥1 km: 2. Global crater properties and regional variations of the simple-to-complex transition diameter, Stuart J. Robbins, Brian M. Hynek</a>
 
-
+[x] <a href="https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/Mars%20Crater%20Codebook.pdf">CRATER_ID Codebook</a>
 
 
