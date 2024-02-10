@@ -39,8 +39,10 @@ In regard to the first question: Is there a correlation between the size, or mor
 
 [2] <a href="https://about.sjrdesign.net/files/thesis/RobbinsThesis_LargeMB.pdf">Robbins, S. J. (2011), Planetary Surface Properties, Cratering Physics, and the Volcanic History of Mars from a New Global Martian Crater Database., Site: Stuart Robbins, Astro/Geophysicist on the Web, 1–239</a>
 
-[3] <a href="https://agupubs.onlinelibrary.wiley.com/share/MCHMUXR6RTENP8AI7CUJ?target=10.1029/2011JE003967">A new global database of Mars impact craters ≥1 km: 2. Global crater properties and regional variations of the simple-to-complex transition diameter, Stuart J. Robbins, Brian M. Hynek</a>
+[3] <a href="https://onlinelibrary.wiley.com/share/TYIG4WKQTSHHQ22EZRHP?target=10.1111/maps.12895">Determination of Mars crater geometric data: Insights from high-resolution digital elevation models Peter J. Mouginis-Mark, Joseph Boyce, Virgil L. Sharpton, Harold Garbeil</a>
 
-[4] <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/maps.12895">Determination of Mars crater geometric data: Insights from high-resolution digital elevation models Peter J. Mouginis-Mark, Joseph Boyce, Virgil L. Sharpton, Harold Garbeil</a>
+[4] <a href="https://agupubs.onlinelibrary.wiley.com/share/MCHMUXR6RTENP8AI7CUJ?target=10.1029/2011JE003967">A new global database of Mars impact craters ≥1 km: 2. Global crater properties and regional variations of the simple-to-complex transition diameter, Stuart J. Robbins, Brian M. Hynek</a>
+
+
 
 
