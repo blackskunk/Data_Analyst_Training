@@ -2,7 +2,8 @@
 
 This post marks the initiation of a series concerning my studies within the "Data Management and Visualization" course at Wesleyan University. 
 
-Throughout this program, I will be employing various data science techniques to address specific research inquiries of my preference, encompassing data organization and presentation, statistical modeling, and the utilization of machine learning algorithms. 
+During the course I will learn to develop a research question based on existing data, describe the variables and their relationships, calculate basic statistics and present the results clearly. 
+By the end of the course, I will be able to use Python to manage and visualize data, including dealing with missing data, groups of variables and charts. 
 
 
 
