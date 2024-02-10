@@ -36,7 +36,15 @@ Based on the original Mars Crater codebook [x] I wrote the following codebook:
 6. Q2_SE: Quadrant 2 is South-East: Value of LONGITUDE_CIRCLE_IMAGE > 0 and value of LATITUDE_CIRCLE_IMAGE < 0
 7. Q3_SW: Quadrant 3 is South-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE < 0
 8. Q4_NW: Quadrant 4 is North-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE > 0
-# 
+#  
+
+## Existing Topic Research and Hypothesis
+
+A search in Google Scholar yielded a lot of research papers concerning the 
+
+Additionally, there are earlier studies dating to the 1990s. The data sets for the above and earlier studies are not readily available for comparison. However, the Aharonson study does indicate that certain physical characteristics, such as diameter and rim slope have a correlation. As rim slope is somewhat related to crater depth, I can hypothesize that crater diameter and depth do have a direct correlation to each other. The degree to which they are related remains unknown at this point until I begin analysis.
+
+
 
 ## References
 
