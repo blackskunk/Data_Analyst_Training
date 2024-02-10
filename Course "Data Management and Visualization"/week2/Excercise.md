@@ -1,1 +1,26 @@
+## Dataset
+
+I have the option of using one of the five public datasets provided in the course (or my own). After careful consideration, I opted for the Mars craters dataset. This particular dataset refers to a 2011 study of craters on Mars authored by Stuart James Robbins of the University of Colorado, Boulder.
+
+## Research question
+
+Although the data on morphology categories (MORPHOLOGY_EJECTA_1 through 3) are interesting, it's not accessible for the majority of the craters listed in the dataset. Furthermore, the correlation between diameter and depth of craters have often be analysed. Therefore I have decided to analyze the geographic distribution of craters in terms of crater density and crater size. 
+
+### Question 1:
+Is there a correlation between the location of the craters (longitude and latitude) and the amount of craters? For the analysis the surface of Mars will be divided into 4 quadrants (north-east, south-east, south-west and north-west). In other words, which quadrant has the highest density of craters?   
+
+### Question 2:
+Is regard to the first question: Is there a correlation between the size, or more precisely, the diameter and the location of the craters? In other words, in which quadrant are the largest craters located on average?
+
+## Code Book
+
+1. CRATER_ID: Crater ID for internal use, based upon the region of the planet (1/16ths), the “pass” under which the crater was identified, and the order in which it was identified.
+2. LATITUDE_CIRCLE_IMAGE: Latitude from the derived center of a non-linear least-squares circle fit to the vertices selected to manually identify the crater rim (units are decimal degrees North).
+3. LONGITUDE_CIRCLE_IMAGE: Longitude from the derived center of a non-linear least-squares circle fit to the vertices selected to manually identify the crater rim (units are decimal degrees East).
+4. DIAM_CIRCLE_IMAGE: Diameter from a non-linear least-squares circle fit to the vertices selected to manually identify the crater rim (units are km).
+5. Q1_NE: Quadrant 1 is North-East: Value of LONGITUDE_CIRCLE_IMAGE > 0 and value of LATITUDE_CIRCLE_IMAGE > 0
+6. Q2_SE: Quadrant 2 is South-East: Value of LONGITUDE_CIRCLE_IMAGE > 0 and value of LATITUDE_CIRCLE_IMAGE < 0
+7. Q3_SW: Quadrant 3 is South-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE < 0
+8. Q4_NW: Quadrant 4 is North-West: Value of LONGITUDE_CIRCLE_IMAGE < 0 and value of LATITUDE_CIRCLE_IMAGE > 0
+
 
