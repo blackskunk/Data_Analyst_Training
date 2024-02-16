@@ -1,3 +1,5 @@
+<a href="https://ibb.co/dkZ5SMQ"><img src="https://i.ibb.co/7rh1HCG/Screenshot.png" alt="Screenshot" border="0" widht="500"></a>
+
 The evaluation illustrates the distribution and characteristics of craters on Mars, divided by geographical quadrants and specific lines (Equator and Prime Meridian). Data indicate significant differences in the number, size, and average area of craters across regions.
 
 Quadrant 2 (Q2) hosts the highest number of craters, accounting for 31.78% of total craters, and also features the largest average crater area and the biggest crater (1164.22 km²). This may suggest geological or climatic conditions favoring crater formation or preservation in this area.
@@ -10,4 +12,4 @@ The very low figures at the Equator and Prime Meridian, with only 7 and 3 crater
 
 Overall, the results suggest an uneven distribution of craters on Mars, potentially influenced by factors such as impact frequency, geological activity, and crater preservation.
 
-<a href="https://ibb.co/dkZ5SMQ"><img src="https://i.ibb.co/7rh1HCG/Screenshot.png" alt="Screenshot" border="0" widht="200"></a>
+
