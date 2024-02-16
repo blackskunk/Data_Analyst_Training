@@ -7,7 +7,7 @@
 
 <a href="https://ibb.co/dkZ5SMQ"><img src="https://i.ibb.co/7rh1HCG/Screenshot.png" alt="Screenshot" border="0" width="800"></a>
 
-## Analysis of the results
+## Analysis of the results (Screenshot)
 
 The evaluation illustrates the distribution and characteristics of craters on Mars, divided by geographical quadrants and specific lines (Equator and Prime Meridian). Data indicate significant differences in the number, size, and average area of craters across regions.
 
