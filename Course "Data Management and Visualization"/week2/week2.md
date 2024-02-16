@@ -1,7 +1,7 @@
 <center>
 <a href="https://ibb.co/bH0PRGt"><img src="https://i.ibb.co/YDC3TVg/Mars7.png" alt="Mars7" border="0" width="800"></a>
 <a href="https://ibb.co/dkZ5SMQ"><img src="https://i.ibb.co/7rh1HCG/Screenshot.png" alt="Screenshot" border="0" width="800"></a>
-
+</center>
 
 The evaluation illustrates the distribution and characteristics of craters on Mars, divided by geographical quadrants and specific lines (Equator and Prime Meridian). Data indicate significant differences in the number, size, and average area of craters across regions.
 
@@ -15,4 +15,4 @@ The very low figures at the Equator and Prime Meridian, with only 7 and 3 crater
 
 Overall, the results suggest an uneven distribution of craters on Mars, potentially influenced by factors such as impact frequency, geological activity, and crater preservation.
 
-</center>
+
