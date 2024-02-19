@@ -5,7 +5,8 @@
 
 ### Results of Python analysis 
 
-<a href="https://ibb.co/dkZ5SMQ"><img src="https://i.ibb.co/7rh1HCG/Screenshot.png" alt="Screenshot" border="0" width="800"></a>
+<a href="https://ibb.co/dkZ5SMQ"><img src="https://i.ibb.co/88HMNhk/week3.png" alt="Screenshot" border="0" width="800"></a>
+
 
 ## Analysis of the results (Screenshot)
 
