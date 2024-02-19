@@ -1,1 +1,64 @@
+import pandas as pd
+import numpy as np
 
+# Define variables for the column names for latitude, longitude, and diameter.
+latitude = "LATITUDE_CIRCLE_IMAGE"
+longitude = "LONGITUDE_CIRCLE_IMAGE"
+diam = "DIAM_CIRCLE_IMAGE"
+
+# Define a list of values to be interpreted as NaN (missing values).
+na_values_list = ['', 'NA', 'na']
+
+# Read the CSV file, treating defined na_values as missing values (NaN).
+df_craters_csv = pd.read_csv("D:/Data Analyst/Teil2_Visualisieren/marscraters.csv", sep=",",
+                             low_memory=False, usecols=[latitude, longitude, diam],
+                             na_values=na_values_list)
+
+# Create a copy of the imported DataFrame and drop rows with any missing values.
+df_craters = df_craters_csv.dropna().copy()
+
+# Define a dictionary to set conditions for each quadrant and special lines that determine whether a crater belongs to it, using the cleaned DataFrame.
+quadrants = {
+    "Q1_NE": (df_craters[longitude] > 0) & (df_craters[latitude] > 0),
+    "Q2_SE": (df_craters[longitude] > 0) & (df_craters[latitude] < 0),
+    "Q3_SW": (df_craters[longitude] < 0) & (df_craters[latitude] < 0),
+    "Q4_NW": (df_craters[longitude] < 0) & (df_craters[latitude] > 0),
+    "Equator": (df_craters[longitude] != 0) & (df_craters[latitude] == 0),
+    "Prime Meridian": (df_craters[longitude] == 0) & (df_craters[latitude] != 0)
+}
+
+df_tables = []
+
+# Loop through all quadrants to calculate statistics including NaN counts, using the cleaned DataFrame.
+for quadrant, condition in quadrants.items():
+    filtered_craters = df_craters[condition]
+          
+    # Perform calculations on the filtered data.
+    percentage = filtered_craters.shape[0] / len(df_craters) * 100
+    area_sum = np.pi * (filtered_craters[diam]/2)**2
+    total_area = area_sum.sum()
+    area_average = total_area / filtered_craters.shape[0] if filtered_craters.shape[0] > 0 else 0
+    max_value = filtered_craters[diam].max()
+    min_value = filtered_craters[diam].min()
+    
+    # Add the statistics to the temporary DataFrame.
+    temp_df = pd.DataFrame({
+        "Quadrant": [quadrant], 
+        "Number": [filtered_craters.shape[0]], 
+        "Percent": [f"{percentage:.4f}"], 
+        "Avg Crater Area (km²)": [f"{area_average:.2f}"], 
+        "Largest Crater": [f"{max_value:.2f}"], 
+        "Smallest Crater": [f"{min_value:.2f}"],
+    })
+    
+    df_tables.append(temp_df)
+
+# Concatenates all DataFrames in the list to get a single DataFrame.
+df_table_combined = pd.concat(df_tables).reset_index(drop=True)
+
+# Converts the DataFrame to HTML and removes the index.
+html_table = df_table_combined.to_html(index=False)
+
+# Displays the HTML string (useful in Jupyter Notebooks).
+from IPython.display import display, HTML
+display(HTML(html_table))
