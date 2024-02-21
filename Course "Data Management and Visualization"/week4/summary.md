@@ -10,10 +10,17 @@
 
 ## Analysis of the results (Screenshot)
 
-The analysis of the Mars craters dataset reveals a distinct distribution of craters across different quadrants and special lines on Mars. The dataset, after removing rows with empty contents to ensure accuracy and reliability, encompasses a total analysis across four main quadrants (NE, SE, SW, NW) and two special lines (Equator and Prime Meridian).
+The provided table presents data on the distribution of craters on Mars across different quadrants, including the number of craters, their percentage representation, average crater area, as well as the sizes of the largest and smallest craters within each quadrant.
 
-The highest number of craters is observed in the SE quadrant with 122,141 craters, accounting for approximately 31.78% of the total, and also exhibits the largest average crater area of 85.08 km². This quadrant also contains the largest crater measured at 1164.22 km², indicating a region with significant geological activity or lesser erosion processes compared to others. Following the SE quadrant, the SW quadrant has 111,306 craters, making up nearly 28.96% of the total, with a substantial average crater area of 78.77 km². The NE quadrant, with 88,256 craters, contributes to 22.96% of the total, showcasing a moderate average crater area of 52.24 km². The NW quadrant, despite having the smallest share of craters at 16.30% (62,630 craters), presents a lower average crater area of 37.26 km², suggesting smaller or possibly older craters subjected to more erosion.
+The Northeast Quadrant (Q1_NE) exhibits the highest number of craters, with 88,256 craters, representing approximately 22.96% of the total. The average crater area in this quadrant is 52.24 square kilometers, with the largest crater measuring 408.23 kilometers in diameter.
 
-Interestingly, the Equator and Prime Meridian lines host a minimal number of craters, with only 7 and 3 craters, respectively, highlighting a negligible impact rate or high erosion rates that erase craters over time in these regions.
+In the Southeast Quadrant (Q2_SE), there are 122,141 craters, constituting around 31.78% of the total. This quadrant has the largest average crater area among all quadrants, standing at 85.08 square kilometers. The largest crater in this quadrant measures 1,164.22 kilometers in diameter.
 
-The decision to remove data with empty contents was crucial to this analysis, ensuring that the statistics reflect only verifiable and complete information, thereby enhancing the study's integrity. This meticulous approach underscores the significance of data quality in conducting planetary geological studies, facilitating a more accurate understanding of Mars' surface and its crater distribution.
+The Southwest Quadrant (Q3_SW) contains 111,306 craters, representing approximately 28.96% of the total. Similar to the Southeast Quadrant, it has a relatively large average crater area of 78.77 square kilometers, with the largest crater measuring 1,096.65 kilometers in diameter.
+
+The Northwest Quadrant (Q4_NW) has the lowest number of craters, with 62,630 craters, accounting for approximately 16.30% of the total. The average crater area in this quadrant is 37.26 square kilometers, and the largest crater measures 376.35 kilometers in diameter.
+
+The Equator and Prime Meridian exhibit significantly fewer craters compared to the other quadrants, with 7 and 3 craters, respectively. Their representation percentages are minimal, at 0.002% and 0.001%, respectively. The average crater areas for these regions are 6.35 square kilometers and 3.29 square kilometers, with the largest craters measuring 5.33 kilometers and 2.85 kilometers in diameter, respectively.
+
+Overall, the data highlights variations in crater distribution and size across different quadrants of Mars, providing insights into the geological characteristics and impact history of the planet.
+
