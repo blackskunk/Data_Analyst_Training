@@ -1,1 +1,159 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Feb 2024 
+@author: Christian_Friedenberger
+"""
 
+# Import necessary libraries
+import pandas as pd                     # For data manipulation and analysis
+import numpy as np                      # For numerical computing
+import matplotlib.pyplot as plt         # For data visualization
+from IPython.display import display, HTML  # For displaying HTML content in Jupyter Notebook
+import shutil                            # For high-level file operations
+
+# Define variables for column names
+latitude = "LATITUDE_CIRCLE_IMAGE"      # Latitude column name
+longitude = "LONGITUDE_CIRCLE_IMAGE"    # Longitude column name
+diam = "DIAM_CIRCLE_IMAGE"              # Diameter column name
+
+# Define a list of values to be interpreted as NaN
+na_values_list = ['', 'NA', 'na']       # List of strings to be interpreted as NaN
+
+# Read the CSV file, treating defined na_values as missing values (NaN)
+df_craters_csv = pd.read_csv("D:/Data Analyst/Teil2_Visualisieren/marscraters.csv", sep=",",
+                             low_memory=False, usecols=[latitude, longitude, diam],
+                             na_values=na_values_list)
+
+# Create a copy of the imported DataFrame and drop rows with any missing values
+df_craters = df_craters_csv.dropna().copy()
+
+# Define a dictionary to set conditions for each quadrant and special lines that determine whether a crater belongs to it, using the cleaned DataFrame
+quadrants = {
+    "Q1_NE": (df_craters[longitude] > 0) & (df_craters[latitude] > 0),
+    "Q2_SE": (df_craters[longitude] > 0) & (df_craters[latitude] < 0),
+    "Q3_SW": (df_craters[longitude] < 0) & (df_craters[latitude] < 0),
+    "Q4_NW": (df_craters[longitude] < 0) & (df_craters[latitude] > 0),
+    "Equator": (df_craters[longitude] != 0) & (df_craters[latitude] == 0),
+    "Prime Meridian": (df_craters[longitude] == 0) & (df_craters[latitude] != 0)
+}
+
+# Initialize an empty list to store DataFrames
+df_tables = []
+
+# Loop through all quadrants to calculate statistics including NaN counts
+for key, values in quadrants.items():
+    filtered_craters = df_craters[values]
+    # Perform calculations on the filtered data
+    percentage = filtered_craters.shape[0] / len(df_craters) * 100
+    area_sum = np.pi * (filtered_craters[diam]/2)**2
+    total_area = area_sum.sum()
+    area_average = total_area / filtered_craters.shape[0] if filtered_craters.shape[0] > 0 else 0
+    max_value = filtered_craters[diam].max()
+    min_value = filtered_craters[diam].min()
+    
+    # Add the statistics to the temporary DataFrame
+    temp_df = pd.DataFrame({
+        "Quadrant": [key], 
+        "Number": [filtered_craters.shape[0]], 
+        "Percent": [percentage], 
+        "Avg Crater Area (km²)": [area_average], 
+        "Largest Crater": [max_value], 
+        "Smallest Crater": [min_value],
+    })
+    
+    df_tables.append(temp_df)
+
+# Concatenate all DataFrames in the list to get a single DataFrame
+df_table_combined = pd.concat(df_tables).reset_index(drop=True)
+
+# Convert the DataFrame to HTML and remove the index
+html_table = df_table_combined.to_html(index=False)
+
+# Display the HTML table
+display(HTML(html_table))
+
+# Print a separator line
+line_length = 150
+print('━' * line_length)
+
+# Graphical Presentation
+###########################################################################
+
+# Create a bar chart showing the number of craters over quadrants
+labels = ['Q1_NE', 'Q2_SE', 'Q3_SW', 'Q4_NW', 'Equator', 'Prime Meridian']
+values = [quadrants["Q1_NE"].sum(), quadrants["Q2_SE"].sum(), quadrants["Q3_SW"].sum(), 
+          quadrants["Q4_NW"].sum(), quadrants["Equator"].sum(), quadrants["Prime Meridian"].sum()]
+total_craters = len(df_craters)
+
+plt.bar(labels, values, color=['lightcoral', 'lightgreen', 'peachpuff', 'lightblue'])
+plt.xlabel('Quadrant')
+plt.ylabel('Number of craters')
+plt.title('Crater distribution in the quadrants')
+
+# Display percentage text on bars
+for label, value in zip(labels, values):
+    if label in ['Equator', 'Prime Meridian']:
+        percentage = df_table_combined.loc[df_table_combined['Quadrant'] == label, 'Percent'].values[0]
+        plt.text(label, value, f"{percentage:.5f}%", ha='center', va='bottom')
+    else:
+        percentage = df_table_combined.loc[df_table_combined['Quadrant'] == label, 'Percent'].values[0]
+        plt.text(label, value, f"{percentage:.2f}%", ha='center', va='bottom')
+
+plt.gcf().set_size_inches(12, 5)
+plt.show()
+
+###########################################################################
+
+# Create a scatter plot with quadrant annotations for Q1
+plt.scatter(df_craters[longitude], df_craters[latitude], s=0.01, alpha=0.5, color='blue')
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
+plt.title('Crater distribution (Longitude vs. Latitude)')
+# Draw axes
+plt.axhline(y=0, color='black', linestyle='--', lw=0.5)  # Latitude 0
+plt.axvline(x=0, color='black', linestyle='--', lw=0.5)  # Longitude 0
+# Annotation for quadrants
+plt.text(-90, 45, 'Q4', color='red', ha='center', va='center', size=20)
+plt.text(90, 45, 'Q1', color='red', ha='center', va='center', size=20)
+plt.text(90, -45, 'Q2', color='red', ha='center', va='center', size=20)
+plt.text(-90, -45, 'Q3', color='red', ha='center', va='center', size=20)
+plt.gcf().set_size_inches(12, 5)
+plt.show()
+
+###########################################################################
+
+# Initialize a list of counting variables
+diam_counts = [0] * 6
+
+# Loop over crater diameters
+for diameter in df_craters[diam]:
+    # Use match case for structured comparisons
+    match diameter:
+        case d if 0 < d <= 1:
+            diam_counts[0] += 1
+        case d if 1 < d <= 2:
+            diam_counts[1] += 1
+        case d if 2 < d <= 5:
+            diam_counts[2] += 1
+        case d if 5 < d <= 100:
+            diam_counts[3] += 1
+        case d if 100 < d <= 1000:
+            diam_counts[4] += 1
+        case d if 1000 < d <= 2000:
+            diam_counts[5] += 1
+
+# Create a bar chart showing the diameter distribution of craters
+labels = ['d <= 1', '1 < d <= 2', '2 < d <= 5', '5 < d <= 100', '100 < d <= 1000', '1000 < d <= 2000']
+values = diam_counts
+
+plt.bar(labels, values, color=['lightcoral', 'lightgreen', 'peachpuff', 'lightblue', 'red', 'blue'])
+plt.xlabel('Diameter d (km)')
+plt.ylabel('Number of craters')
+plt.title('Diameter distribution over size')
+
+# Display counts on bars
+for label, value in zip(labels, values):
+    plt.text(label, value, str(value), ha='center', va='bottom')
+    
+plt.gcf().set_size_inches(12, 5)
+plt.show()
