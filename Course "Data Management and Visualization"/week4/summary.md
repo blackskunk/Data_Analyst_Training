@@ -24,3 +24,9 @@ The Equator and Prime Meridian exhibit significantly fewer craters compared to t
 
 Overall, the data highlights variations in crater distribution and size across different quadrants of Mars, providing insights into the geological characteristics and impact history of the planet.
 
+## Graphical analysis of the results (Screenshot)
+
+<a href="https://ibb.co/jMPhx6g"><img src="https://i.ibb.co/G2471xc/Screenshot-2024-02-21-204512.png" alt="Screenshot-2024-02-21-204512" border="0"></a>
+<a href="https://ibb.co/bFhQxbM"><img src="https://i.ibb.co/NrhtXTd/carter-verteilung2.png" alt="carter-verteilung2" border="0"></a>
+<a href="https://ibb.co/2MKyQmf"><img src="https://i.ibb.co/wQ6RX3x/diameter.png" alt="diameter" border="0"></a>
+
